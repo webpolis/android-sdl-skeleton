@@ -1,0 +1,1 @@
+/home/nico/workspace/commandergenius/project/jni/application/setEnvironment-armeabi-v7a.sh

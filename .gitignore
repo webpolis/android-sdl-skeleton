@@ -1,0 +1,8 @@
+project/jni/Settings.mk
+project/AndroidManifest.xml
+project/assets/**
+project/bin/
+project/gen/
+project/libs/
+project/obj/
+project/src/
