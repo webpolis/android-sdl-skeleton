@@ -1,3 +1,6 @@
+project/project.iml
+.idea/
+out/
 project/jni/Settings.mk
 project/AndroidManifest.xml
 project/assets/**
