@@ -85,7 +85,7 @@ rm -r -f project/bin/* # New Android SDK introduced some lame-ass optimizations 
 	cd ../../../..
 }
 
-cd project && env PATH=$NDKBUILDPATH BUILD_NUM_CPUS=$NCPU nice -n19 ndk-build -j$NCPU V=1 && \
+cd project && env PATH=$NDKBUILDPATH BUILD_NUM_CPUS=$NCPU nice -n19 ndk-build -j$NCPU V=1 NDK_DEBUG=1 && \
 	{	grep "CustomBuildScript=y" ../AndroidAppSettings.cfg > /dev/null && \
 		echo Stripping libapplication-armeabi.so by hand && \
 		rm obj/local/armeabi/libapplication.so && \
